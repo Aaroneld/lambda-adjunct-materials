@@ -5,8 +5,12 @@ In Javascript functions and classes are units of abstraction which allow us to e
 
 Initially React used classes to represent these component structures, recently however The React library has moved to representing components as functions. These two different methods of representation accomplish the same goal but, go about acheiving it in different ways. Below is a table comparing the difference between the two.  
 
-| Functional Components | Class Components |
-| --------------------- | ---------------- |
-| Declaration                              |
-| ---------------------------------------- |
-|     lol               | dsd              |
+<table>
+  <tr>
+    <th width=700>Functional Components</th>
+    <th width=700>Class Components</th>
+  </tr>
+  <tr>
+    <th colspan=2>Declaration</th>
+  </tr>
+</table>
