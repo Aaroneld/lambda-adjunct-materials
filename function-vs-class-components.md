@@ -11,6 +11,47 @@ Initially React used classes to represent these component structures, recently h
     <th width=700>Class Components</th>
   </tr>
   <tr>
-    <th colspan=2>Declaration</th>
+    <th colspan=2>Declaration </br> 
+      <sub> Demonstrates how to initialize components before building them out </sub>
+    </th>
+  </tr>
+  <tr>
+    <td>
+       yolo
+      <pre><code></code></pre>
+    </td>
+  </tr>
+   <tr>
+    <th colspan=2>State Management </br> 
+      <sub>How data is persisted and changed</sub>
+    </th>
+  </tr>
+  <tr>
+    <td>
+       yolo
+      <pre><code>yolo</code></pre>
+    </td>
+  </tr>
+   <tr>
+    <th colspan=2>Lifecycle Methods</br> 
+      <sub>Introducing change at specific points in time</sub>
+    </th>
+  </tr>
+  <tr>
+    <td>
+       yolo
+      <pre><code>yolo</code></pre>
+    </td>
+  </tr>
+  <tr>
+      <th colspan=2>Passing Props</br> 
+      <sub>Communication between components</sub>
+    </th>
+  </tr>
+  <tr>
+    <td>
+       yolo
+      <pre><code>yolo</code></pre>
+    </td>
   </tr>
 </table>
