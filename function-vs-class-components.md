@@ -16,9 +16,46 @@ Initially React used classes to represent these component structures, recently h
     </th>
   </tr>
   <tr>
+        <td>
+            <pre>
+                <code>
+    import React from 'react';
+    </br>
+    function MyComponent(){
+    </br>
+        return ()
+    }
+                    </code>
+            </pre>
+        <span>or</span>
+        </br>
+         </br>
+        <pre>
+            <code>
+    import React from 'react';
+    </br>
+    const MyComponent = () => {
+    </br>
+        return ()
+    }
+            </code>
+        </pre> 
+        </td>
+     </br>
+    <pre>
+    <code>
     <td>
-       yolo
-      <pre><code></code></pre>
+    <pre><code>
+    import React from 'react' 
+</br>
+    class MyComponent extends React.Component { 
+</br>
+      render(){
+        return ()          
+      }
+    }
+    </code>
+    </pre>
     </td>
   </tr>
    <tr>
@@ -27,10 +64,56 @@ Initially React used classes to represent these component structures, recently h
     </th>
   </tr>
   <tr>
-    <td>
-       yolo
-      <pre><code>yolo</code></pre>
-    </td>
+            <td>
+            <h3>Initializing State</h3>
+        </br>
+            <pre>
+                <code>
+    import React, { useState } from 'react';
+    </br>
+    function MyComponent(){
+        </br>
+        const [someState, setSomeState] = useState(initialValue);
+        </br>
+        return ();
+    }
+                </code>
+            </pre>
+        </br>
+        <h3>Accessing State</h3>
+    </br>
+        <pre>
+            <code>
+    import React, { useState } from 'react';
+    </br>
+    function MyComponent(){
+    </br>
+        const [someState, setSomeState] = useState("initialValue");
+    </br>
+        return &ltp&gt{someState}&lt/p&gt
+    }
+            </code>
+        </pre>
+        <h3>Changing State</h3>
+    </br>
+        <pre>
+            <code>
+    import React, { useState } from 'react';
+    </br>
+    function MyComponent(){
+    </br>
+        const [someState, setSomeState] = useState(0);
+    </br>
+        const handleClick = e => {
+        </br>
+            setSomeState(someState + 1);
+        }
+    </br> 
+        return &ltbutton onClick={handleClick}&gtAdd One&lt/button&gt;
+    }
+            </code>
+        </pre>
+        </td>
   </tr>
    <tr>
     <th colspan=2>Lifecycle Methods</br> 
